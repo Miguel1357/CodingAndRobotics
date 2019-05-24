@@ -1,0 +1,13 @@
+def student_func(x):
+    //if x is a multiple of both 3 and 5
+    if x % 3 == 0 and x % 5 == 0:
+      return "threefive"
+    //if x is a multiple of 3
+    elif x % 3 == 0:
+      return "three"
+    //if x is a multiple of 5
+    elif x % 5 == 0:
+      return "five"
+    //if x is not a multiple of 3 or 5
+    else:
+      return x
